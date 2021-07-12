@@ -6,9 +6,9 @@
 
 2. **Contacts**  
    ---
-     [Telegram](https://t.me/AlexFarok "Alex Korost")
-     [Mail](mailto:alex.farok.korost@gmail.com "Alex Korost")
-     [Discord](https://discordapp.com/alexkorost/8266/ "Alex Korost")
+     1. [Telegram](https://t.me/AlexFarok "Alex Korost")
+     2. [Mail](mailto:alex.farok.korost@gmail.com "Alex Korost")
+     3. [Discord](https://discordapp.com/alexkorost/8266/ "Alex Korost")
 
 3. **About me**
    ---
