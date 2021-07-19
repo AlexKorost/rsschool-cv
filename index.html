@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio Alex Korost</title>
@@ -20,7 +21,7 @@
         <header class="mainHeader">
             <div class="container">
                 <div class="mainHeader__holder">
-                    <strong>Alex Korost</strong>
+                    <strong class="logo">Alex Korost</strong>
                     <nav class="mainNav">
                         <ul class="mainNav__list">
                             <li class="mainNav__item"><a class="mainNav__link" href="#name">Name</a></li>
@@ -33,18 +34,18 @@
             </div>
         </header>
         <main class="mainContent">
-            <section id="#name">
+            <section id="name" class="mainSection">
                 <div class="container">
                     <h2 class="sectionTitle">Name</h2>
                     <div class="nameHolder">
-                        <div class="photo">
-                            <img src="img/my_photo.jpg" alt="Alex Kotost photo">
-                        </div>
                         <h1>Alex Korost</h1>
+                        <div class="photo">
+                            <img width="400" height="400" src="img/my_photo.jpg" alt="Alex Kotost photo">
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="#contacts">
+            <section id="contacts" class="mainSection">
                 <div class="container">
                     <h2 class="sectionTitle">Contacts</h2>
                     <ul class="contacts__list">
@@ -55,19 +56,19 @@
                     </ul>
                 </div>
             </section>
-            <section id="#about">
+            <section id="about" class="mainSection">
                 <div class="container">
                     <h2 class="sectionTitle">About Me</h2>
-                    <div class="text-holder">
+                    <div class="textHolder">
                         <p>Future front-end developer...</p>
                         <p><i>Will be complemented!</i></p>
                     </div>
                 </div>
             </section>
-            <section id="#myCode">
+            <section id="myCode" class="mainSection">
                 <div class="container">
                     <h2 class="sectionTitle">My Code</h2>
-                    <div class="text-holder">
+                    <div class="textHolder">
                         <pre>const maskify = (cc) => (cc.length > 4 ? `${'#'.repeat(cc.length - 4)}${cc.slice(-4)}`:cc);</pre>
                     </div>
                 </div>
@@ -86,8 +87,9 @@
             </div>
             <div class="footer-bottom">
                 <div class="container">
-                    <div class="text-holder">
-                        <p>Alex Korost 2021</p>
+                    <div class="textHolder">
+                        <p>Alex Korost</p>
+                        <p> 2021</p>
                     </div>
                 </div>
             </div>
