@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio Alex Korost</title>
 </head>
+
 <body>
     <div id="wrapper">
         <header class="mainHeader">
-            <strong>Alex Korost</strong>
-            <nav class="mainNav">
-                <ul class="mainNav__list">
-                    <li class="mainNav__item"><a href="#name">Name</a></li>
-                    <li class="mainNav__item"><a href="#contacts">Contacts</a></li>
-                    <li class="mainNav__item"><a href="#about">About me</a></li>
-                    <li class="mainNav__item"><a href="#myCode"></a>My code</li>
-                </ul>
-            </nav>
+            <div class="container">
+                <div class="mainHeader__holder">
+                    <strong>Alex Korost</strong>
+                    <nav class="mainNav">
+                        <ul class="mainNav__list">
+                            <li class="mainNav__item"><a class="mainNav__link" href="#name">Name</a></li>
+                            <li class="mainNav__item"><a class="mainNav__link" href="#contacts">Contacts</a></li>
+                            <li class="mainNav__item"><a class="mainNav__link" href="#about">About me</a></li>
+                            <li class="mainNav__item"><a class="mainNav__link" href="#myCode">My code</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
         <main class="mainContent">
             <section id="#name">
                 <div class="container">
+                    <h2 class="sectionTitle">Name</h2>
                     <div class="nameHolder">
                         <div class="photo">
                             <img src="img/my_photo.jpg" alt="Alex Kotost photo">
@@ -32,37 +46,53 @@
             </section>
             <section id="#contacts">
                 <div class="container">
-                    <div class="nameHolder">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                        <h1>Alex Korost</h1>
-                    </div>
+                    <h2 class="sectionTitle">Contacts</h2>
+                    <ul class="contacts__list">
+                        <li class="contact__item"><a href="https://t.me/AlexFarok" class="contact__link">Telegram</a>
+                        </li>
+                        <li class="contact__item"><a href="mailto:alex.farok.korost@gmail.com"
+                                class="contact__link">Mail</a></li>
+                    </ul>
                 </div>
             </section>
             <section id="#about">
                 <div class="container">
-                    <div class="nameHolder">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                        <h1>Alex Korost</h1>
+                    <h2 class="sectionTitle">About Me</h2>
+                    <div class="text-holder">
+                        <p>Future front-end developer...</p>
+                        <p><i>Will be complemented!</i></p>
                     </div>
                 </div>
             </section>
             <section id="#myCode">
                 <div class="container">
-                    <div class="nameHolder">
-                        <div class="photo">
-                            <img src="" alt="">
-                        </div>
-                        <h1>Alex Korost</h1>
+                    <h2 class="sectionTitle">My Code</h2>
+                    <div class="text-holder">
+                        <pre>const maskify = (cc) => (cc.length > 4 ? `${'#'.repeat(cc.length - 4)}${cc.slice(-4)}`:cc);</pre>
                     </div>
                 </div>
             </section>
-
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-holder">
+                        <a href="#" class="footer-logo">
+                            <img width="150" src="img/rs_school_js.svg" alt="rsschool">
+                        </a>
+                        <a href="https://github.com/AlexKorost" class="gitlink">My GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="text-holder">
+                        <p>Alex Korost 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
+
 </html>
