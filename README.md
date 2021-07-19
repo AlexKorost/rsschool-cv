@@ -1,1 +1,1 @@
-[https://alexkorost.github.io/rsschool-cv/cv](https://alexkorost.github.io/rsschool-cv/
+[https://alexkorost.github.io/rsschool-cv](https://alexkorost.github.io/rsschool-cv/
